@@ -1,0 +1,26 @@
+h3 {
+    border:3px solid black;
+}
+#um {
+    background-color:green;
+    width:300px;
+    height:80px;
+    position:fixed;
+    left:100px;
+    top:100px;
+    z-index:-1;
+}
+#dois {
+    background-color:yellow;
+    width:200px;
+    height:110px;
+    z-index:-2;
+    position:absolute;
+}
+#tres {
+    background-color:blue;
+    width:100px;
+    height:150px;
+    z-index:-3;
+    position:absolute;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aula 16 - Menu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/menu.css" media="all" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#menu li ul").hide();
+                $("#menu li").hover(
+                        function () {
+                            $(this).children("ul").show();
+                        },
+                        function () {
+                            $(this).children("ul").hide();
+                        }
+                );
+            });
+        </script>	
+    </head>
+    <body>
+        <ul id="menu">
+            <li>Home</li>
+            <li>Soluções</li>
+            <li>Indústrias
+                <ul>
+                    <li>Financeira</li>
+                    <li>Comunicação</li>
+                    <li>Educação</li>
+                    <li>Energia
+                        <ul>
+                            <li>Elétrica</li>
+                            <li>Eólica</li>
+                            <li>Hidraúlica</li>
+                            <li>Fóssil</li> 
+                            <li>Solar</li> 
+                        </ul>
+                    </li> 
+                    <li>Governo</li> 
+                </ul>
+            </li>	
+            <li>Cases</li> 
+            <li>Contato</li> 
+        </ul>
+    </body>
+</html>

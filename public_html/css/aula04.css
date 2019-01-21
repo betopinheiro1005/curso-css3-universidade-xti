@@ -1,0 +1,15 @@
+* {
+    color:#006699;
+}
+p {
+    color:#0000CC;
+}	
+.destaque {
+    color:#CC0000;
+}	
+.detalhe {
+    text-decoration:underline;
+}	
+#introducao {
+    background-color:#99FF00;
+}

@@ -1,0 +1,15 @@
+a[href^="http:"]{	
+    background:url(../img/externo.gif) no-repeat right top;
+    padding-right:25px;
+}	
+a[href^="mailto:"]{
+    background:url(../img/email.gif) no-repeat right top;
+    padding-right:25px;
+}	
+a[href$=".zip"]{
+    background:url(../img/zip.gif) no-repeat right top;
+    padding-right:25px;
+}	
+a img {
+    border:none;
+}	

@@ -1,0 +1,7 @@
+p:first-line {
+    color:#0000FF;
+}
+p:first-letter {
+    font-size:40px;
+    color:red;
+}

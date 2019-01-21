@@ -1,0 +1,11 @@
+body {
+    background-image:url("../img/eco.jpg");
+    background-repeat:repeat;
+}
+
+div {
+    width:320px;
+    height:320px;
+    border:2px solid black;
+    background:#6699ff url("../img/eco.jpg") no-repeat fixed 10px -5px;
+}

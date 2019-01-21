@@ -1,0 +1,12 @@
+div em {
+    color:red;
+}
+div > em {
+    text-decoration:underline;
+}
+p + p {
+    color:blue;
+}	
+p + h2 {
+    text-decoration:underline;
+}	

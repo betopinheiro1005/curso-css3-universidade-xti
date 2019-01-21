@@ -1,0 +1,32 @@
+div {
+    border:1px solid black;
+}
+#container {
+    width:600px;
+    margin:0 auto;
+}
+#header {
+    height:80px;
+    background:#DDDDDD;
+}
+#left {
+    float:left;
+    width:130px;
+    background:#666666;
+}
+#content {
+    float:right;
+    width:450px;
+}
+#content > #principal {
+    float:left;
+    width:340px;
+}
+#content > #right {
+    float:right;
+    width:100px;
+}
+#footer {
+    clear:both;
+    background:#DDDDDD;
+}

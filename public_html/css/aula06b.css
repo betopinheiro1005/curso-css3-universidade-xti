@@ -1,0 +1,9 @@
+input[type="text"]:focus {
+    background-color:yellow;
+}	
+label:hover {
+    background-color:yellow;
+}	
+a:active {
+    color:green;
+}	
